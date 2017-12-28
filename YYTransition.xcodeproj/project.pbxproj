@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC670DDC1FF4862E00FE6F45 /* TargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC670DDB1FF4862E00FE6F45 /* TargetViewController.swift */; };
+		DC670DDE1FF4884D00FE6F45 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC670DDD1FF4884D00FE6F45 /* 2.jpg */; };
+		DC670DED1FF4D35800FE6F45 /* UIViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC670DE81FF4D35800FE6F45 /* UIViewController+Transition.swift */; };
+		DC670DEE1FF4D35900FE6F45 /* YYTransition+Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC670DE91FF4D35800FE6F45 /* YYTransition+Circle.swift */; };
+		DC670DEF1FF4D35900FE6F45 /* YYTransition+Middle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC670DEA1FF4D35800FE6F45 /* YYTransition+Middle.swift */; };
+		DC670DF01FF4D35900FE6F45 /* YYTransition+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC670DEB1FF4D35800FE6F45 /* YYTransition+Move.swift */; };
+		DC670DF11FF4D35900FE6F45 /* YYTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC670DEC1FF4D35800FE6F45 /* YYTransition.swift */; };
+		DC670DF31FF4D7AA00FE6F45 /* YYTransition+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC670DF21FF4D7AA00FE6F45 /* YYTransition+Animation.swift */; };
+		DC670DF51FF4D93900FE6F45 /* YYTransition+Tier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC670DF41FF4D93900FE6F45 /* YYTransition+Tier.swift */; };
 		DCECD1191FF3993000AFDB63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCECD1181FF3993000AFDB63 /* AppDelegate.swift */; };
 		DCECD11B1FF3993000AFDB63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCECD11A1FF3993000AFDB63 /* ViewController.swift */; };
 		DCECD11E1FF3993000AFDB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCECD11C1FF3993000AFDB63 /* Main.storyboard */; };
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC670DDB1FF4862E00FE6F45 /* TargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetViewController.swift; sourceTree = "<group>"; };
+		DC670DDD1FF4884D00FE6F45 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		DC670DE81FF4D35800FE6F45 /* UIViewController+Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Transition.swift"; sourceTree = "<group>"; };
+		DC670DE91FF4D35800FE6F45 /* YYTransition+Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YYTransition+Circle.swift"; sourceTree = "<group>"; };
+		DC670DEA1FF4D35800FE6F45 /* YYTransition+Middle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YYTransition+Middle.swift"; sourceTree = "<group>"; };
+		DC670DEB1FF4D35800FE6F45 /* YYTransition+Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YYTransition+Move.swift"; sourceTree = "<group>"; };
+		DC670DEC1FF4D35800FE6F45 /* YYTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTransition.swift; sourceTree = "<group>"; };
+		DC670DF21FF4D7AA00FE6F45 /* YYTransition+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YYTransition+Animation.swift"; sourceTree = "<group>"; };
+		DC670DF41FF4D93900FE6F45 /* YYTransition+Tier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YYTransition+Tier.swift"; sourceTree = "<group>"; };
 		DCECD1151FF3993000AFDB63 /* YYTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCECD1181FF3993000AFDB63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCECD11A1FF3993000AFDB63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +92,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC670DE71FF4D35800FE6F45 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				DC670DE81FF4D35800FE6F45 /* UIViewController+Transition.swift */,
+				DC670DEC1FF4D35800FE6F45 /* YYTransition.swift */,
+				DC670DE91FF4D35800FE6F45 /* YYTransition+Circle.swift */,
+				DC670DEA1FF4D35800FE6F45 /* YYTransition+Middle.swift */,
+				DC670DEB1FF4D35800FE6F45 /* YYTransition+Move.swift */,
+				DC670DF41FF4D93900FE6F45 /* YYTransition+Tier.swift */,
+				DC670DF21FF4D7AA00FE6F45 /* YYTransition+Animation.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
 		DCECD10C1FF3993000AFDB63 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +131,11 @@
 			children = (
 				DCECD1181FF3993000AFDB63 /* AppDelegate.swift */,
 				DCECD11A1FF3993000AFDB63 /* ViewController.swift */,
+				DC670DDB1FF4862E00FE6F45 /* TargetViewController.swift */,
+				DC670DE71FF4D35800FE6F45 /* Transition */,
 				DCECD11C1FF3993000AFDB63 /* Main.storyboard */,
 				DCECD11F1FF3993000AFDB63 /* Assets.xcassets */,
+				DC670DDD1FF4884D00FE6F45 /* 2.jpg */,
 				DCECD1211FF3993000AFDB63 /* LaunchScreen.storyboard */,
 				DCECD1241FF3993000AFDB63 /* Info.plist */,
 			);
@@ -234,6 +269,7 @@
 			files = (
 				DCECD1231FF3993000AFDB63 /* LaunchScreen.storyboard in Resources */,
 				DCECD1201FF3993000AFDB63 /* Assets.xcassets in Resources */,
+				DC670DDE1FF4884D00FE6F45 /* 2.jpg in Resources */,
 				DCECD11E1FF3993000AFDB63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC670DF51FF4D93900FE6F45 /* YYTransition+Tier.swift in Sources */,
 				DCECD11B1FF3993000AFDB63 /* ViewController.swift in Sources */,
+				DC670DEF1FF4D35900FE6F45 /* YYTransition+Middle.swift in Sources */,
+				DC670DF11FF4D35900FE6F45 /* YYTransition.swift in Sources */,
+				DC670DED1FF4D35800FE6F45 /* UIViewController+Transition.swift in Sources */,
 				DCECD1191FF3993000AFDB63 /* AppDelegate.swift in Sources */,
+				DC670DEE1FF4D35900FE6F45 /* YYTransition+Circle.swift in Sources */,
+				DC670DF01FF4D35900FE6F45 /* YYTransition+Move.swift in Sources */,
+				DC670DDC1FF4862E00FE6F45 /* TargetViewController.swift in Sources */,
+				DC670DF31FF4D7AA00FE6F45 /* YYTransition+Animation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
