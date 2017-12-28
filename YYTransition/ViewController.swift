@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var circleView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        // 我在这里修改了什么
     }
 
     override func didReceiveMemoryWarning() {
